@@ -60,7 +60,7 @@ class StudentClass implements StudentClassInterface {
   }
 }
 
-const student = new StudentClass('John', 'Doe');
+const student: StudentClassInterface = new StudentClass('John', 'Doe');
 
 console.log(teacher3);
 console.log(director1);
